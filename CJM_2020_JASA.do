@@ -1,11 +1,24 @@
 ********************************************************************************
 * Empirical Illustration
 * M.D. Cattaneo, M. Jansson, X. Ma
-* 07-JUN-2019
+* 21-AUG-2020
 ********************************************************************************
 
-* net install rddensity, from(https://sites.google.com/site/rdpackages/rddensity/stata) replace
-* net install lpdensity, from(https://sites.google.com/site/nppackages/lpdensity/stata) replace
+* net install rddensity, from(https://raw.githubusercontent.com/rdpackages/rddensity/master/stata) replace
+* net install lpdensity, from(https://raw.githubusercontent.com/nppackages/lpdensity/master/stata) replace
+
+********************************************************************************
+********************************************************************************
+* NOTE: If you are using RDDENSITY version 2020 or newer, the option "nomasspoints" may be needed to 
+* replicate the results in the paper. For example:
+*
+*     rddensity X
+*
+* should be replaced by:
+*
+*     rddensity X, nomasspoints
+********************************************************************************
+********************************************************************************
 
 ********************************************************************************
 ********************************************************************************

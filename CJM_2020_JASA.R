@@ -1,13 +1,20 @@
 ######################################################################
 # Empirical Illustration
 # M.D. Cattaneo, M. Jansson, X. Ma
-# 07-JUN-2019
+# 21-AUG-2020
 ######################################################################
 
 # install.packages("ggplot2")
 # install.packages("lpdensity")
 # install.packages("rddensity")
 # install.packages("rdd")
+
+# NOTE: if you are using RDDENSITY version 2020 or newer, the option 
+# masspoints=FALSE may be needed to replicate the results in the monograph.
+# For example:
+#    out = rddensity(X)
+# should be replaced by:
+#    out = rddensity(X,masspoints=FALSE)
 
 ######################################################################
 ######################################################################
